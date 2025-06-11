@@ -1,0 +1,29 @@
+# ~/.config/alacritty/alacritty.toml
+
+# Imports (optional)
+# import = [
+#   "~/.config/alacritty/themes/your_theme.toml",
+# ]
+
+[font]
+size = 18.0 # Adjust this to your preferred size for readability
+
+[font.normal]
+family = "JetBrainsMono" # e.g., "FiraCode Nerd Font Mono"
+style = "Regular"
+
+[font.bold]
+family = "JetBrainsMono"
+style = "Bold"
+
+[font.italic]
+family = "JetBrainsMono"
+style = "Italic"
+
+[font.bold_italic]
+family = "JetBrainsMono"
+style = "Bold Italic"
+
+# If your chosen font doesn't explicitly have bold/italic styles,
+# Alacritty will try to synthesize them. However, it's best to specify
+# actual styles if available for optimal rendering.
